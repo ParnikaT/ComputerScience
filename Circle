@@ -1,0 +1,21 @@
+
+public class Circle extends Shape implements Area
+{
+	private double myRadius; 
+	
+	//Circle double radius Circle( double r, String n ) Shape Area
+	public Circle (double radius, String name)
+	{		
+		super(name); 
+		myRadius=radius;
+	}
+	
+	public double getArea()
+	{
+		return Math.PI* Math.pow(myRadius, 2);
+	}
+	
+	
+	
+	
+}

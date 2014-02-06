@@ -1,12 +1,16 @@
-
 public class Shape 
 {
 	private String myName; 
 	
 	public Shape()
 	{
-		returun 
+	
 	}
 	
+	public String getName()
+	{
+		return myName; 
+	}
+
 	
 }

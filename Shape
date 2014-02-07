@@ -1,16 +1,17 @@
+
 public class Shape 
 {
-	private String myName; 
+	protected String myName; 
 	
 	public Shape()
 	{
-	
+		myName="Shape";
 	}
 	
 	public String getName()
 	{
 		return myName; 
 	}
-
+	
 	
 }

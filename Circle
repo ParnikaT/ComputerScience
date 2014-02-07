@@ -6,7 +6,8 @@ public class Circle extends Shape implements Area
 	//Circle double radius Circle( double r, String n ) Shape Area
 	public Circle (double radius, String name)
 	{		
-		super(name); 
+		super.myName=name; 
+	 
 		myRadius=radius;
 	}
 	
